@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        background-image: linear-gradient(to bottom right, #8300cd, #b800c4);
+        box-sizing: border-box;
+      }
+      .Login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .Login_image {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+      }
+      form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+      .input_Password_Email {
+        width: 330px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        background-color: #e5e5e5;
+      }
+      p {
+        margin: 10px;
+      }
+      a {
+        color: #1fcc44;
+      }
+      input[type="submit"] {
+        width: 330px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        border: 0px;
+        background-color: #1fcc44;
+        color: #fff;
+        font-size: large;
+      }
+      img {
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        border-radius: 50%;
+      }
+      .div_image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Login">
+      <div class="Login_image">
+        <div class="div_image">
+          <img src="lap.jpg" alt="lap" />
+        </div>
+        <div class="container">
+          <h1>Member Login</h1>
+          <form action="">
+            <input
+              class="input_Password_Email"
+              type="Email"
+              placeholder="Email"
+            />
+            <input
+              class="input_Password_Email"
+              type="password"
+              name=""
+              id=""
+              placeholder="Password"
+            />
+            <input type="submit" value="submit" />
+          </form>
+          <p>Forgot <a href="">Username</a> / <a href="">Password ?</a></p>
+          <a>Create your account</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
